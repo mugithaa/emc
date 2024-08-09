@@ -19,11 +19,11 @@ export const profile = {
     name: 'Stephan Meijer',
     callSign: 'Stephan',
     pitch: 'Product Engineer, Creator, and Open Source Maintainer.',
-    bio: `Perhaps you use some of my [open source](/projects?q=open-source) projects, or [products](/projects?q=product). If so, I'd love to [hear from you](https://go.meijer.ws/twitter)!`,
-    email: 'stephan@meijer.ws',
+    bio: `Perhaps you use some of my [open source](/projects?q=open-source) projects, or [products](/projects?q=product). If so, I'd love to [hear from you](https://go.emc.to/twitter)!`,
+    email: 'jas@emc.to',
     profilePhoto: portraitImage,
     avatar: avatarImage,
-    twitter: '@meijer_s',
+    twitter: '@emcto',
     imagePath: '/smeijer.jpg',
   },
   photos: [
@@ -41,21 +41,13 @@ export const profile = {
     email: 'https://go.meijer.ws/email',
   },
   blog: {
-    title: 'Writing about code, growth, and world views.',
-    intro: 'All of my long-form thoughts on programming, growth, world views and more, collected in chronological order.'
+    title: 'Writing about Connecting the Future, growth, and world views.',
+    intro: 'Empowering the Modern Connectivity, growth, world views and more, collected in chronological order.'
   },
   about: {
-    title: 'I’m Stephan Meijer. I live in Leeuwarden, Netherlands, where I code in light mode.',
+    title: 'I’m Jas. I live in PY, IN.',
     description: `
       I've loved writing software since I was a kid. I started writing DOS scripts, then moved on to Visual Basic, PHP, C#.net and JavaScript. I've been working as a software engineer for over 15 years. Made my entry in tech by launching my own SaaS, GoWion, which later served as a foundation for my career. 
-      
-      I've traded GoWion for a share in an early startup that I joined, which then got rebranded to Clearly. I helped grow the product and the team around it. First with local engineers, later with a remote team in Ukraine, where I met my wife. After working for 7 years at the company, and for 10 years on the same product, it was time to trade my position as CTO for something new.
-      
-      I've freelanced, helped Kent C. Dodds launch his new website, helped early stage startups with their MVP while they were still in "stealth mode", and I've worked on my own projects.
-      
-      One of Kent's tweets lead to me joining MagicBell, a YCombinator backed startup. As principal engineer, I'm helping them build the best notification product for SaaS applications, maintain their open-source SDKs, do some customer support, and work on product.
-      
-      In my free time, I maintain open-source projects like [testing-playground.com](https://testing-playground.com), work on my own SaaS products like rake.red, updrafts.app, and metricmouse.com, and when there's time left, I work on my house using my hands instead of my keyboard.
     `,
   },
 
