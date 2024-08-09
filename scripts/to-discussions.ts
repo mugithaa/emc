@@ -6,7 +6,7 @@ import {  setTimeout } from 'timers/promises';
 import { digestMessage } from "./api/crypto";
 import { extractMatter } from "./api/markdown";
 
-const BASE_URL = 'https://meijer.ws';
+const BASE_URL = 'https://emc.to';
 
 const { parsed: env } = dotenv.config({ path: '.env.local' });
 
@@ -17,7 +17,7 @@ const GISCUS_CATEGORY= process.env.GISCUS_CATEGORY || env.NEXT_PUBLIC_GISCUS_CAT
 const GISCUS_CATEGORY_ID= process.env.GISCUS_CATEGORY_ID || env.NEXT_PUBLIC_GISCUS_CATEGORY_ID;
 
 function getOg(slug: string) {
-  return `https://meijer.ws/api/og?path=/articles/${slug}`;
+  return `https://emc.to/api/og?path=/articles/${slug}`;
 }
 
 export const GITHUB_GRAPHQL_API_URL = 'https://api.github.com/graphql';
